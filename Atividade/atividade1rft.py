@@ -93,9 +93,7 @@ while True:
 
         print(f"\nLivro '{titulo}' cadastrado e salvo com sucesso!")
 
-    # ------------------------------------------------------------
-    # OPÇÃO 2: LISTAR LIVROS
-    # ------------------------------------------------------------
+
     elif opcao == 2:
         print("=" * 30)
         print("      LISTA DE LIVROS")
@@ -104,7 +102,7 @@ while True:
         if len(lista_titulos_livros) == 0:
             print("Nenhum livro cadastrado até o momento.")
         else:
-            # ALTERAÇÃO 2: Exibição estruturada percorrendo as listas pelo índice
+
             for i in range(len(lista_titulos_livros)):
                 print(f"Código: {lista_codigos_livros[i]}")
                 print(f"Título: {lista_titulos_livros[i]}")
